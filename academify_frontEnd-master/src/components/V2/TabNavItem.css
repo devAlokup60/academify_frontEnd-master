@@ -1,0 +1,28 @@
+/* .nav li {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 6px 10px;
+} */
+.nav li {
+  display: flex;
+  text-align: center;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.nav:hover,
+.active {
+  background-color: #b1dff8;
+  color: #06159a;
+  padding: 0 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+@media only screen and (max-width: 700px) and (min-width: 300px) {
+  .nav li {
+    font-size: 12px;
+    padding: 0 10px;
+    justify-content: center;
+    text-align: center;
+  }
+}

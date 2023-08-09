@@ -1,0 +1,112 @@
+.btn-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navbar-shadow {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.navbar {
+  height: 80px;
+  background-color: white;
+  /* z-index: 999; */
+}
+.navbar-active {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  transform: translateY(-80px);
+  animation: stickyHeader 0.3s ease forwards;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 999;
+}
+
+@keyframes stickyHeader {
+  0% {
+    transform: translateY(-80px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.navbar .menu .btn-pre {
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+.navbar .menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: red;
+  border-radius: 0.2rem;
+}
+/* 06159a */
+
+@media (max-width: 480px) {
+  .navbar .menu {
+    display: flex;
+  }
+
+  /* .navbar {
+    flex-direction: column;
+    align-items: start;
+  }
+  .navbar ul .btn-pre {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  } */
+}
+/* Regular menu styles */
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  background-color: #333;
+  position: absolute;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburger span:nth-child(3) {
+  bottom: 0;
+}
+
+/* Styles for the active (open) menu */
+.hamburger.active span:nth-child(1) {
+  transform: translateY(50%) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.hamburger.active span:nth-child(3) {
+  display: none;
+}
+.hamburger.md\:hidden {
+  display: none !important;
+}
+

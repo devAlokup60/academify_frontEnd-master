@@ -1,0 +1,13 @@
+@media only screen and (max-width: 700px) and (min-width: 300px) {
+  .tab-nav {
+    width: 100%;
+    font-size: 20px;
+    padding: 0 30px;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0px auto;
+  }
+  .tab-content {
+    width: 100%;
+  }
+}

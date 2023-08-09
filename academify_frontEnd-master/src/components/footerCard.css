@@ -1,0 +1,27 @@
+@media only screen and (max-width: 700px) and (min-width: 300px) {
+  .footer-card {
+    width: 100%;
+  }
+  .footer-card .footer-heading {
+    font-size: 20px;
+  }
+  .footer-card .footer-para {
+    font-size: 1rem;
+  }
+  .footerCards {
+    width: 100%;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .box-card {
+    width: 48%;
+    padding: 0;
+    /* height: 50%; */
+  }
+  /* .box-card .info-data {
+    font-size: 20px;
+  } */
+}

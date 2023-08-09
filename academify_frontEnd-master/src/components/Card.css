@@ -1,0 +1,14 @@
+/* .cards {
+  transition: all ease-in 200;
+} */
+.img-shadow {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.slideshow {
+  /* margin: 0 auto; */
+  /* overflow: hidden; */
+  /* max-width: 500px; */
+}
+/* .slideshowSlider {
+  white-space: nowrap;
+} */

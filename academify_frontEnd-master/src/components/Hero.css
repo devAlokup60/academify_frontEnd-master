@@ -1,0 +1,37 @@
+@media only screen and (max-width: 700px) and (min-width: 300px) {
+  .right-part {
+    display: none;
+  }
+  /* .parent {
+    width: 100%;
+    margin: 0 auto;
+  } */
+  .main-contents {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    padding: 0 30px;
+  }
+  .main-contents .left-part .para {
+    padding-top: 0;
+  }
+  .left-btn {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .left-btn button {
+    padding: 10px 2rem;
+    font-size: 10px;
+    font-weight: 600;
+    /* width: 100%; */
+  }
+  .left-btn .usersCount {
+    /* width: 100%; */
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,10 @@
+/* First and Second Tab Styles */
+.ThirdTab p {
+  font-size: 2rem;
+  text-align: center;
+}
+@media only screen and (max-width: 700px) and (min-width: 200px) {
+  .alert_feature-head {
+    width: 100%;
+  }
+}

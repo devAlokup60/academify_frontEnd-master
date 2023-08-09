@@ -1,0 +1,23 @@
+.form-shadow {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 14px 16px,
+    rgba(17, 17, 26, 0.332) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.select {
+  padding: 8px 12px;
+  color: #333333;
+  /* background-color: #eeeeee; */
+  /* border: 1px solid #dddddd; */
+}
+.select:focus {
+  outline: none;
+  border: none;
+}
+option {
+  border: none;
+}
+
+@media only screen and (max-width: 700px) and (min-width: 300px) {
+  .contact-card {
+    width: 100%;
+  }
+}

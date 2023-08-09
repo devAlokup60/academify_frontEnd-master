@@ -1,0 +1,27 @@
+/* .card {
+  width: 400px;
+  height: max-content;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} */
+
+.tag {
+  background: rgba(64, 202, 78, 0.41);
+}
+@media only screen and (max-width: 700px) and (min-width: 300px) {
+  .feat-card {
+    /* width: 100%; */
+    flex-wrap: wrap;
+  }
+  .single-card {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* width: 60%; */
+  }
+}
